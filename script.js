@@ -6,8 +6,7 @@
     if (!buttonsGroup || !leftSide || !rightSide) return;
     
     let isMobile = false;
-    let originalParent = buttonsGroup.parentNode;
-    
+
     function handleResize() {
         const width = window.innerWidth;
         const shouldBeMobile = width <= 1024;
