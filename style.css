@@ -15,7 +15,7 @@ img{
 }
 
 body {
-    font-family: var(--font-main);
+    font-family: var(--font-main), serif;
     overflow-x: hidden;
     position: relative;
 }
@@ -40,12 +40,11 @@ body::after {
     margin: 0 auto;
 }
 
+
 .left-side {
     width: 50%;
     background-color: #ffffff;
-    padding: 40px 60px;
-	 padding-left: 140px;
-	 padding-right: 63px;
+    padding: 40px 63px 40px 140px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -67,9 +66,8 @@ body::after {
 }
 
 h1 {
-	font-family: Inter;
+    font-family: Inter, serif;
 	font-weight: 600;
-	font-style: Semi Bold;
 	font-size: 50px;
 	line-height: 120%;
 	
@@ -77,9 +75,8 @@ h1 {
 
 .subtitle {
 	padding-top: 24px;
-	font-family: Inter;
+    font-family: Inter, serif;
 font-weight: 400;
-font-style: Regular;
 	font-size: 21px;
 line-height: 120%;
 padding-bottom: 50px;
@@ -93,7 +90,7 @@ padding-bottom: 50px;
 }
 
 .btn {
-	font-family: Inter;
+    font-family: Inter, serif;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 120%;
@@ -278,7 +275,7 @@ padding-bottom: 50px;
 
     .header {
         position: static;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         order: 1;
     }
     
@@ -290,7 +287,7 @@ padding-bottom: 50px;
         position: static;
         order: 1; 
         width: 124px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         transform: none;
         right: auto;
         top: auto;
@@ -311,11 +308,11 @@ padding-bottom: 50px;
     
     .subtitle {
         font-size: 16px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         text-align: center;
         max-width: 100%;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .right-side {
